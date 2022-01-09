@@ -73,15 +73,17 @@ h1 {
     &__item {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         border: 1px solid yellow;
-        width: 30%;
+        width: 50%;
+        margin: 0 auto;
         margin-top: 30px;
         padding: 6px 18px;
         border-radius: 8px;
         font-family: sans-serif;
         font-size: 15px;
         border: 3px solid yellow;
-        color: rgb(255, 153, 0);
+        color: yellow;
     }
 
     &__button {
@@ -89,13 +91,36 @@ h1 {
         border-radius: 8px;
         padding: 4px 16px;
         background-color: red;
-        color: #fff;
-        margin-left: 20px;
         transition: all 0.2s ease-in-out;
+        color: #fff;
 
         &:hover {
             background-color: rgb(202, 3, 3);
             box-shadow: 0px 0px 10px 5px orange;
         }
     }
+}
+
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 350px;
+    color: rgb(255, 115, 0);
+    padding: 2px;
+    border: 2px solid yellow;
+    border-radius: 8px;  
+}
+
+
+
+.inst {
+    width: 200px;
+    position: absolute;
+    text-align: left;  
+    top: 80px; 
+    color: chocolate;
+
 }
